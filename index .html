@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Number System Converter</title>
+ <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+ <div class="container">
+  <h1>Number System Converter</h1>
+  <label for="choice">Choose the input number system:</label>
+  <select id="choice">
+   <option value="decimal">Decimal</option>
+   <option value="binary">Binary</option>
+   <option value="octal">Octal</option>
+   <option value="hexadecimal">Hexadecimal</option>
+  </select>
+
+  <div>
+   <label for="inputNumber">Enter number:</label>
+   <input type="text" id="inputNumber" placeholder="Enter a number">
+  </div>
+
+  <button id="convert">Convert</button>
+
+  <div id="results">
+
+  </div>
+
+ </div>
+
+ <script src="script/script.js"></script>
+</body>
+
+</html>
